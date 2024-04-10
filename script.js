@@ -1,3 +1,4 @@
+// Description: JavaScript code for the contact form
 document.addEventListener("DOMContentLoaded", function () {
   const emailForm = document.getElementById("emailForm");
   if (emailForm) {
@@ -43,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.error("Form element not found");
   }
 });
-
+// Below jQuery code is for reference only and is not used in this project
 // $('#emailForm').on('submit', function(event) {
 //     event.preventDefault(); // prevent reload
 
